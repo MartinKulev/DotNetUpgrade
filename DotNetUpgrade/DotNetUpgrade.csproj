@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Version>1.0.3</Version>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Authors>Martin Kulev</Authors>
+		<PackageId>DotNetUpgrade</PackageId>
+		<Description>A NuGet package containing useful features and improvements that don't exist in .Net 9.</Description>
+		<PackageTags>useful; framework; .NET; upgrade</PackageTags>
+		<RepositoryUrl>https://github.com/MartinKulev/DotNetUpgrade.git</RepositoryUrl>
+		<PackageReleaseNotes>Added icon metadata tag.</PackageReleaseNotes>
+		<PackageIcon>icon.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="icon.png" Pack="true" PackagePath=""/>
+	</ItemGroup>
+</Project>
