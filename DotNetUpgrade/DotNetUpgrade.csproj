@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<Version>1.0.5</Version>
+		<Version>1.0.6</Version>
 		<TargetFramework>net9.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
@@ -16,5 +16,6 @@
 
 	<ItemGroup>
 		<None Include="icon.png" Pack="true" PackagePath=""/>
+		<None Include="README.md" Pack="true" />
 	</ItemGroup>
 </Project>
